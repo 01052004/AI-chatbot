@@ -53,7 +53,7 @@ function takeCommand(message) {
     } else if (message.includes("open youtube")) {
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...");
-    } else if (message.includes("open chatgpt")) {
+    } else if (message.includes("open chat gpt")) {
         window.open("https://chatgpt.com/");
         speak("Opening Chatgpt...");
     } else if (message.includes('what is') || message.includes('who is') || message.includes('what are')) {
