@@ -54,7 +54,7 @@ function takeCommand(message) {
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...");
     } else if (message.includes("open chat gpt")) {
-        window.open("https://chatgpt.com","_blank");
+         window.open("https://chat.openai.com", "_blank");
         speak("Opening Chatgpt...");
     } else if (message.includes('what is') || message.includes('who is') || message.includes('what are')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
